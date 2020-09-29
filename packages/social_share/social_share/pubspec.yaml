@@ -1,0 +1,32 @@
+name: social_share
+description: A Flutter plugin for share.
+author: romatroskin
+version: 0.4.1
+homepage: https://github.com/romatroskin/plugins/tree/master/packages/social_share
+
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: io.github.romatroskin.plugins.socialshare
+        pluginClass: SocialSharePlugin
+      ios:
+        pluginClass: FLTSocialSharePlugin
+      # web:
+      #   default_package: social_share_web
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  meta: ^1.0.5
+  social_share_platform_interface: ^0.0.1 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.8.0

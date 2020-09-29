@@ -1,0 +1,22 @@
+name: social_share_platform_interface
+description: A common platform interface for the social_share plugin.
+homepage: https://github.com/romatroskin/plugins/tree/master/packages/social_share_platform_interface
+# NOTE: We strongly prefer non-breaking changes, even at the expense of a
+# less-clean API. See https://flutter.dev/go/platform-interface-breaking-changes
+author: romatroskin
+version: 0.4.1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  meta: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^4.1.1
+  pedantic: ^1.8.0
